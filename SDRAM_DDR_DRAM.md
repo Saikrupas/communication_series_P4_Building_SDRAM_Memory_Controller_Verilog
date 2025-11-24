@@ -89,7 +89,7 @@ Figure 1(b): 1-transistor/1-capacitor DRAM cell </br>
 
 As shown in **Figure 2**, in the first step, when the RAS is low, all the cells in an entire row is read by its sense amplifier -- a process that takes a relatively long time. After this, the row is active so that the columns may be accessed for a read or write. Access time (read/write cycle time) for the  RAS is generally much higher than a CAS due to the sense amplifying step. Bus speeds for asynchronous DRAMs typically do no exceed 66 MHz.</br>
 
-<img width="310" height="310" alt="image" src=DRAM_WAVE.png/></br>
+<img width="510" height="510" alt="image" src=DRAM_WAVE.png/></br>
 
 Figure 2: Address timing for asynchronous DRAM.</br>
 
@@ -132,7 +132,7 @@ Figure 2: Address timing for asynchronous DRAM.</br>
 
 +  For instance, a DDR2 RAM added a 2x clock multiplier to the DDR SDRAM interface thereby doubling data transfer speeds while maintaining the same bus speed.This way a ‘4-bit prefetch’ is employed from the memory array to the I/O buffer. Along the same lines 8 bits of data are prefetched in DDR3 modules and 16 bits for DDR4 modules.</br>
 
-<img width="1000" height="410" alt="image" src=BLOCK_DIG.png/></br>
+<img width="510" height="51010" alt="image" src=BLOCK_DIG.png/></br>
 
 Figure 3: A DRAM memory array with SDRAM interface (to the right) and DDR control interface (to the left).</br>
 
@@ -140,4 +140,5 @@ Figure 3: A DRAM memory array with SDRAM interface (to the right) and DDR contro
 
 -----
 -----
+
 
