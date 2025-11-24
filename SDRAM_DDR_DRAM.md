@@ -51,7 +51,7 @@ Let's talk about the major differences between the different types of DRAM inclu
 
 + A typical 3-transistor DRAM cell employs the use of access transistors and a storage transistor to switch the input capacitance of the storage transistor ON (bit value 1) and OFF (bit value 0). The array of transistors are tied to read and write columnlines and rowlines that are also known as bitlines and wordlines respectively.</br>
 
-> bitline(columnline) ----> read 
+> bitline(columnline) ----> read </br>
 > wordline(rowline)  -----> write
 
 + The components and data lines are arranged in such a way that allows for both write and read operations with a singular storage transistor.</br>
@@ -140,3 +140,4 @@ Figure 3: A DRAM memory array with SDRAM interface (to the right) and DDR contro
 
 -----
 -----
+
