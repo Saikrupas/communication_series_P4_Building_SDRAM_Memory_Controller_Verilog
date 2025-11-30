@@ -57,7 +57,7 @@ Let's talk about the major differences between the different types of DRAM inclu
 + The components and data lines are arranged in such a way that allows for both write and read operations with a singular storage transistor.</br>
 + For instance, a <u>traditional 3-transistor DRAM cell</u> (from Figure 1(a)) performs a write command by sending voltage to the gate of the M1 access transistor which in turn, charges the gate capacitance of M3. The write line is then driven low and the charge stored in the gate capacitance of M3 slowly dissipates -- <mark>thus the term dynamic.</mark>
 
-<img width="310" height="310" alt="image" src=DRAM_CELL_1.png/></br>
+<img width="510" height="410" alt="image" src=DRAM_CELL_1.png/></br>
 
 Figure 1(a): 3-transistor DRAM cell </br>
 
@@ -65,7 +65,7 @@ Figure 1(a): 3-transistor DRAM cell </br>
 + <mark>A write command is accomplished by turning the gate to the transistor on thereby sending current to the discrete storage capacitor</mark>.</br>
 + <mark>A read is accomplished by sharing the charge stored in the capacitor with the bit line. The architecture requires a rewrite (refresh) after every read operation as the charge sharing destroys the information contained in the DRAM cell</mark>. Typically, this recharge happens every few milliseconds to compensate for charge leaks from the capacitor.</br>
 
-<img width="310" height="310" alt="image" src=DRAM_CELL_2.png/></br>
+<img width="510" height="410" alt="image" src=DRAM_CELL_2.png/></br>
 
 Figure 1(b): 1-transistor/1-capacitor DRAM cell </br>
 
@@ -89,7 +89,7 @@ Figure 1(b): 1-transistor/1-capacitor DRAM cell </br>
 
 As shown in **Figure 2**, in the first step, when the RAS is low, all the cells in an entire row is read by its sense amplifier -- a process that takes a relatively long time. After this, the row is active so that the columns may be accessed for a read or write. Access time (read/write cycle time) for the  RAS is generally much higher than a CAS due to the sense amplifying step. Bus speeds for asynchronous DRAMs typically do no exceed 66 MHz.</br>
 
-<img width="310" height="310" alt="image" src=DRAM_WAVE.png/></br>
+<img width="510" height="410" alt="image" src=DRAM_WAVE.png/></br>
 
 Figure 2: Address timing for asynchronous DRAM.</br>
 
@@ -140,3 +140,4 @@ Figure 3: A DRAM memory array with SDRAM interface (to the right) and DDR contro
 
 -----
 -----
+
